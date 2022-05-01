@@ -1,0 +1,92 @@
+{
+  "userList": [
+    {
+      "UserID": "1",
+      "EmailID": "asd@gmail.com",
+      "FirstName": "Ram",
+      "LastName": "Sharma",
+      "mobile": "8546132097",
+      "password": "45789",
+      "experience": "5",
+      "address": "Baramati",
+      "Education": "BE",
+      "cvLink": "cv.com",
+      "id": 5
+    },
+    {
+      "UserID": "2",
+      "EmailID": "adk@outlook.com",
+      "FirstName": "Ganesh",
+      "LastName": "Jadhav",
+      "mobile": "9860305601",
+      "password": "45601",
+      "experience": "10",
+      "address": "Pune",
+      "Education": "BSC",
+      "cvLink": "svpmcv.com",
+      "id": 6
+    },
+    {
+      "UserID": "3",
+      "EmailID": "msd@yahoo.com",
+      "FirstName": "M.S.",
+      "LastName": "Dhoni",
+      "mobile": "7821694036",
+      "password": "72543",
+      "experience": "20",
+      "address": "Zarkhand",
+      "Education": "B.com",
+      "cvLink": "ms/dhoni.cv/re.com",
+      "id": 7
+    },
+    {
+      "UserID": "4",
+      "EmailID": "vk@email.com",
+      "FirstName": "Virat",
+      "LastName": "Kohli",
+      "mobile": "+91-22-22180827",
+      "password": "57391",
+      "experience": "14",
+      "address": "Mumbai",
+      "Education": "12th",
+      "cvLink": "asvk.com",
+      "id": 8
+    },
+    {
+      "UserID": "5",
+      "EmailID": "ak@gmail.com",
+      "FirstName": "ak",
+      "LastName": "bk",
+      "mobile": "7894561230",
+      "password": "12345678",
+      "experience": "3",
+      "address": "Baramati",
+      "Education": "BBA",
+      "cvLink": "formcv.com",
+      "id": 9
+    },
+    {
+      "UserID": "6",
+      "EmailID": "Suraj",
+      "FirstName": "zagade",
+      "LastName": "zagadesuraj15@gmail.com",
+      "mobile": "9607726412",
+      "password": "India@123",
+      "experience": "10",
+      "address": "Katfal",
+      "Education": "BE",
+      "cvLink": "resume/cv.com",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

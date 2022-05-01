@@ -1,0 +1,71 @@
+<h1 mat-dialog-title>Add User Information</h1>
+<div mat-dialog-content>
+    <form [formGroup]="userForm">
+        <mat-form-field appearance="outline">
+            <mat-label>User ID</mat-label>
+            <input formControlName="UserID" matInput placeholder="Enter user ID here">
+            
+        </mat-form-field>
+        
+        <mat-form-field appearance="outline">
+            <mat-label>Email ID</mat-label>
+            <input formControlName="EmailID" matInput placeholder="abc@gmail.com">
+            
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>First Name</mat-label>
+            <input formControlName="FirstName"matInput placeholder="Enter first name here">
+            
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Last Name</mat-label>
+            <input formControlName="LastName" matInput placeholder="Enter last name here">
+            
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Mobile </mat-label>
+            <input formControlName="mobile" matInput placeholder="Enter user ID here">
+            
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input formControlName="password" matInput [type]="hide ? 'password' : 'text'">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+        </mat-form-field>
+        
+        <mat-form-field appearance="outline">
+            <mat-label>Experience</mat-label>
+            <input formControlName="experience" matInput placeholder="Enter experience here">
+            
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Address</mat-label>
+            <input formControlName="address" matInput placeholder="Enter your Address">
+            
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>cvLink</mat-label>
+            <input formControlName="cvLink" matInput placeholder="Enter cvLink here">
+            
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Education</mat-label>
+            <input formControlName="Education" matInput placeholder="Enter Education here">
+            
+        </mat-form-field>
+        
+
+        
+        
+    </form>
+
+
+
+</div>
+<div mat-dialog-action [align]="'end'">
+    <button mat-raised-button color="primary" (click)="addUser()">{{actionBtn}}</button>
+    <button style="margin-left: 8px;" mat-raised-button color="warn" mat-dialog-close>Cancel</button>
+</div>
